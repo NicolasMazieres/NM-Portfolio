@@ -1,6 +1,8 @@
 function Footer(){
     return (
-        <div></div>
+        <footer>
+            <p>Find me on</p>
+        </footer>
     );
 }
 
