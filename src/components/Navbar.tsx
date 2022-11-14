@@ -33,7 +33,7 @@ function Navbar() {
             {(isMenuClicked || largeur > 520) && (
                 <ul className="nav-list">
                     <li className="nav-items">
-                        <HashLink className="nav-items" smooth to="/">Home</HashLink>
+                        <HashLink className="nav-items" smooth to="/#">Home</HashLink>
                     </li>
                     <li className="nav-items">
                         <HashLink className="nav-items" smooth to="/#about">About</HashLink>
