@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import AllRoutes from './components/AllRoutes';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Landing />
-      <Navbar />
+      <AllRoutes />
       <AboutMe />
       <Projects />
       <Contact />
