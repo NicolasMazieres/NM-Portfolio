@@ -13,7 +13,7 @@ function AboutMe() {
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div className="about-item">
-                    <img className="portrait-picture" src="./nm-photo.jpg" alt="My portrait" />
+                    <img className="portrait-picture" src="./images/nm-photo.jpg" alt="My portrait" />
                     <button className="cv-button">Download my CV</button>
                 </div>
                 <div className="about-item">

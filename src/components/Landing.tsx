@@ -1,8 +1,13 @@
-function Landing(){
+function Landing() {
     return (
         <section className="landing-container">
-            <p>Hello it's a me</p>
+            <p>
+                Hello, I'm Nicolas,
+                <br />
+                Welcome to my website !
+            </p>
             <button className="landing-button">Down</button>
+            <img className="background-image" src="./images/forest-background.jpg" alt="Background" />
         </section>
     );
 }

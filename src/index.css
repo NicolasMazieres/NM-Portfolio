@@ -8,7 +8,21 @@
 .landing-container {
   height: 100vh;
   text-align: center;
-  background-color: palegoldenrod;
+}
+
+.landing-container p {
+  position: relative;
+  top: 30%;
+  font-size: 70px;
+  color: beige;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: -1;
+  max-width: 100%;
 }
 
 /* Navbar */
@@ -190,7 +204,7 @@ footer {
   .nav-title {
     z-index: 10;
   }
-  
+
   .nav-list {
     position: absolute;
     width: 95.5vw;
@@ -219,7 +233,7 @@ footer {
     position: absolute;
     top: 50%;
     right: 5%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%, -40%);
     font-size: 2em;
     cursor: pointer;
     border: none;
