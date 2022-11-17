@@ -1,6 +1,6 @@
-function AboutMe() {
+function AboutMe({myref}:any) {
     return (
-        <section className="about-container" id="about">
+        <section className="about-container" id="about" ref={myref}>
             <h2 className="section-title">About Me</h2>
             <div className="about-content">
                 <div className="about-item">

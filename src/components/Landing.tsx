@@ -1,4 +1,10 @@
-function Landing() {
+import { BsArrowDownCircle } from 'react-icons/bs';
+
+type Props = { handleArrowClick: React.MouseEventHandler<SVGElement> }
+
+function Landing({handleArrowClick}: Props) {
+    const handleClick = handleArrowClick;
+
     return (
         <section className="landing-container">
             <p>
@@ -6,8 +12,7 @@ function Landing() {
                 <br />
                 Welcome to my website !
             </p>
-            <button className="landing-button">Down</button>
-            <img className="background-image" src="./images/forest-background.jpg" alt="Background" />
+            <BsArrowDownCircle className='down-arrow' onClick={handleClick}/>
         </section>
     );
 }

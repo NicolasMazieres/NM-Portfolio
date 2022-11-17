@@ -5,12 +5,14 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Landing from "./Landing";
 
-function AllRoutes() {
+type Props = { handleArrowClick: React.MouseEventHandler<SVGElement> }
+
+function AllRoutes({handleArrowClick}: Props) {
     return (
         <Router>
             <Navbar />
             <Switch>
-                <Route path="/"></Route> <Landing /> <Route />
+                <Route path="/"></Route> <Landing handleArrowClick={handleArrowClick}/> <Route />
                 <Route path="/about"></Route> <AboutMe /> <Route />
                 <Route path="/skills"></Route> <Projects /> <Route />
                 <Route path="/contacts"></Route> <Contact /> <Route />
