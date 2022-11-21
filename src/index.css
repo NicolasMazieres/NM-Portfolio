@@ -14,6 +14,7 @@
   background-image: url(/public/images/forest-background.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .landing-container p {
@@ -121,7 +122,6 @@ nav {
 .about-container {
   padding: 15vh 25px;
   min-height: 70vh;
-  background-color: paleturquoise;
 }
 
 .section-title {
@@ -132,10 +132,8 @@ nav {
 }
 
 .about-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .about-item {
@@ -144,12 +142,14 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 30vw;
-  min-width: 200px;
 }
 
 .about-item p {
   text-align: justify;
+}
+
+.about-item h3 {
+  margin-bottom: 5vh;
 }
 
 .portrait-picture {
@@ -157,6 +157,30 @@ nav {
   max-width: 30vw;
   max-height: 250px;
   border-radius: 50%;
+}
+
+.cv-link {
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.25em;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.cv-link:hover {
+  animation: 1s ease 0s forwards link ;
+}
+
+@keyframes link {
+  from {
+    background-color: none;
+  }
+  to {
+    background-color: cornflowerblue;
+  }
 }
 
 /* Project section */

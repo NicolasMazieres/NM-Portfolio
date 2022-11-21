@@ -1,3 +1,5 @@
+import pdf from "../cv-nm-2022.pdf"
+
 function AboutMe({myref}:any) {
     return (
         <section className="about-container" id="about" ref={myref}>
@@ -14,7 +16,7 @@ function AboutMe({myref}:any) {
                 </div>
                 <div className="about-item">
                     <img className="portrait-picture" src="./images/nm-photo.jpg" alt="My portrait" />
-                    <button className="cv-button">Download my CV</button>
+                    <a href={pdf} className="cv-link" download="CV-NicolasMAZIERES.pdf">Download my CV</a>
                 </div>
                 <div className="about-item">
                     <h3>Passions</h3>
