@@ -6,6 +6,14 @@
   font-family: 'Asap', sans-serif;
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
 /* Landing page */
 
 .landing-container {
@@ -26,6 +34,7 @@
   font-size: 70px;
   font-weight: 600;
   color: beige;
+  text-align: center;
 }
 
 .down-arrow {
@@ -58,6 +67,7 @@
 /* Navbar */
 
 nav {
+  z-index: 100;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -120,7 +130,7 @@ nav {
 /* About Me section */
 
 .about-container {
-  padding: 15vh 25px;
+  padding: 15vh 0;
   min-height: 70vh;
 }
 
@@ -132,35 +142,73 @@ nav {
 }
 
 .about-content {
+  height: 100vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 3fr 1fr 2fr 1fr 3fr;
+  grid-template-rows: 1fr 3fr 2fr 1fr 3fr 2fr 1fr;
 }
 
-.about-item {
-  margin: auto 2vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.about-content::before {
+  position: relative;
+  z-index: 2;
+  content: "";
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 4;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 25px;
 }
 
-.about-item p {
-  text-align: justify;
+.about-content::after {
+  z-index: 2;
+  content: "";
+  grid-column: 4 / span 2;
+  grid-row: 4 / span 4;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 25px;
 }
 
-.about-item h3 {
-  margin-bottom: 5vh;
+.about-work-title {
+  z-index: 10;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.about-work-text {
+  z-index: 10;
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 2;
+  padding: 0 20px;
+  align-self: center;
+}
+
+.about-passion-title {
+  z-index: 10;
+  grid-column: 4 / span 2;
+  grid-row: 4;
+}
+
+.about-passion-text {
+  z-index: 10;
+  grid-column: 4 / span 2;
+  grid-row: 5 / span 2;
+  padding: 0 20px;
+  align-self: center;
 }
 
 .portrait-picture {
-  margin-bottom: 5vh;
-  max-width: 30vw;
-  max-height: 250px;
-  border-radius: 50%;
+  grid-column: 2 / span 3;
+  grid-row: 3 / span 3;
+  z-index: 1;
+  align-self: stretch;
+  margin: 0 auto;
 }
 
 .cv-link {
-  padding: 10px;
+  z-index: 10;
+  grid-column: 3;
+  grid-row: 7;
   text-decoration: none;
   text-align: center;
   font-weight: 600;
