@@ -142,10 +142,10 @@ nav {
 }
 
 .about-content {
-  height: 100vh;
+  height: 800px;
   display: grid;
   grid-template-columns: 3fr 1fr 2fr 1fr 3fr;
-  grid-template-rows: 1fr 3fr 2fr 1fr 3fr 2fr 1fr;
+  grid-template-rows: 1fr 3fr 2fr 1fr 3fr 2fr 2fr;
 }
 
 .about-content::before {
@@ -171,6 +171,7 @@ nav {
   z-index: 10;
   grid-column: 1 / span 2;
   grid-row: 1;
+  align-self: center;
 }
 
 .about-work-text {
@@ -198,6 +199,7 @@ nav {
   z-index: 10;
   grid-column: 4 / span 2;
   grid-row: 4;
+  align-self: center;
 }
 
 .about-passion-text {
@@ -208,22 +210,39 @@ nav {
   align-self: center;
 }
 
+.about-passion-logos {
+  z-index: 10;
+  grid-column: 4 / span 2;
+  grid-row: 7;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.about-passion-logos img{
+  max-width: 4vw;
+}
+
 .portrait-picture {
   grid-column: 2 / span 3;
   grid-row: 3 / span 3;
   z-index: 1;
-  align-self: stretch;
+  align-self: center;
   margin: 0 auto;
+  max-height: 55vh;
 }
 
 .cv-link {
   z-index: 10;
-  grid-column: 3;
-  grid-row: 7;
+  margin: 2vh 13vw;
+  margin-top: 0;
+  padding-top: 1vh;
+  grid-column: 1 / span 2;
+  grid-row: 4;
   text-decoration: none;
   text-align: center;
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1em;
   color: black;
   border: 2px solid black;
   border-radius: 20px;
