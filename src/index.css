@@ -130,12 +130,12 @@ nav {
 /* About Me section */
 
 .about-container {
-  padding: 15vh 0;
+  padding: 10vh 20px;
   min-height: 70vh;
 }
 
 .section-title {
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
@@ -154,9 +154,8 @@ nav {
   content: "";
   grid-column: 1 / span 2;
   grid-row: 1 / span 4;
-  background-color: beige;
-  border: 1px solid black;
-  border-radius: 25px;
+  background-color: #f2fcff;
+  box-shadow: rgba(-50, -50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px -30px 60px -30px;
 }
 
 .about-content::after {
@@ -164,9 +163,8 @@ nav {
   content: "";
   grid-column: 4 / span 2;
   grid-row: 4 / span 4;
-  background-color: beige;
-  border: 1px solid black;
-  border-radius: 25px;
+  background-color: #f2fcff;
+  box-shadow: rgba(-50, -50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px -30px 60px -30px;
 }
 
 .about-work-title {
@@ -181,6 +179,19 @@ nav {
   grid-row: 2 / span 2;
   padding: 0 20px;
   align-self: center;
+}
+
+.logo-up-right {
+  font-size: 10em;
+  grid-column: 5;
+  grid-row: 1 / span 2;
+}
+
+.logo-down-left {
+  font-size: 10em;
+  grid-column: 1;
+  grid-row: 6 / span 2;
+  padding-left: 10vw;
 }
 
 .about-passion-title {

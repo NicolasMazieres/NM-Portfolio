@@ -1,4 +1,6 @@
-import pdf from "../cv-nm-2022.pdf"
+import pdf from "../cv-nm-2022.pdf";
+import { TbChevronUpRight } from "react-icons/tb";
+import { TbChevronDownLeft } from "react-icons/tb";
 
 function AboutMe({myref}:any) {
     return (
@@ -12,6 +14,7 @@ function AboutMe({myref}:any) {
                         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <TbChevronUpRight className="logo-up-right"/>
                     <img className="portrait-picture" src="./images/nm-photo.jpg" alt="My portrait" />
                     <a href={pdf} className="cv-link" download="CV-NicolasMAZIERES.pdf">Download my CV</a>
                     <h3 className="about-passion-title">Passions</h3>
@@ -21,6 +24,7 @@ function AboutMe({myref}:any) {
                         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <TbChevronDownLeft className="logo-down-left"/>
                 </div>
         </section>
     );
