@@ -6,12 +6,25 @@
   font-family: 'Asap', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
+  color: #252922;
 }
 
 p {
   text-align: justify;
+  color: #252922;
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 /* Landing page */
@@ -33,7 +46,7 @@ p {
   transform: translate(-50%, -50%);
   font-size: 70px;
   font-weight: 600;
-  color: beige;
+  color: rgb(223, 223, 223);
   text-align: center;
 }
 
@@ -43,22 +56,24 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
-  color: beige;
+  color: rgb(223, 223, 223);
   cursor: pointer;
-  animation: 2.5s ease 0s infinite normal none running arrow ;
+  animation: 2.5s ease 0s infinite normal none running arrow;
 }
 
 .down-arrow:hover {
-  color: rgba(2,19,19,255);
+  color: rgba(2, 19, 19, 255);
 }
 
 @keyframes arrow {
   from {
     font-size: 100px;
   }
+
   50% {
     font-size: 50px;
   }
+
   to {
     font-size: 100px;
   }
@@ -72,7 +87,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   height: 50px;
-  background: #1B1212;
+  background: #252922;
   box-shadow: 0 0 5px 0 black;
   position: sticky;
   top: 0;
@@ -95,7 +110,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   position: relative;
-  background: #1B1212;
+  background: #252922;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -122,8 +137,8 @@ nav {
   color: rgb(223, 223, 223);
 }
 
-.nav-items:hover {
-  color: #daa916;
+.nav-link:hover {
+  color: #61939B;
   border-radius: 10%;
 }
 
@@ -132,6 +147,7 @@ nav {
 .about-container {
   padding: 10vh 20px;
   min-height: 70vh;
+  background-color: #cda58b;
 }
 
 .section-title {
@@ -145,7 +161,7 @@ nav {
   height: 800px;
   display: grid;
   grid-template-columns: 3fr 1fr 2fr 1fr 3fr;
-  grid-template-rows: 1fr 3fr 2fr 1fr 3fr 2fr 2fr;
+  grid-template-rows: 1.5fr 2.5fr 2fr 1.5fr 2.5fr 2fr 2fr;
 }
 
 .about-content::before {
@@ -186,6 +202,7 @@ nav {
   font-size: 10em;
   grid-column: 5;
   grid-row: 1 / span 2;
+  color: #252922;
 }
 
 .logo-down-left {
@@ -193,6 +210,7 @@ nav {
   grid-column: 1;
   grid-row: 6 / span 2;
   padding-left: 10vw;
+  color: #252922;
 }
 
 .about-passion-title {
@@ -219,7 +237,7 @@ nav {
   align-items: flex-start;
 }
 
-.about-passion-logos img{
+.about-passion-logos img {
   max-width: 4vw;
 }
 
@@ -234,30 +252,30 @@ nav {
 
 .cv-link {
   z-index: 10;
-  margin: 2vh 13vw;
-  margin-top: 0;
-  padding-top: 1vh;
+  margin: auto;
+  padding: 10px;
   grid-column: 1 / span 2;
   grid-row: 4;
   text-decoration: none;
   text-align: center;
   font-weight: 600;
   font-size: 1em;
-  color: black;
-  border: 2px solid black;
+  color: #252922;
+  border: 2px solid #252922;
   border-radius: 20px;
 }
 
 .cv-link:hover {
-  animation: 1s ease 0s forwards link ;
+  animation: 1s ease 0s forwards link;
 }
 
 @keyframes link {
   from {
     background-color: none;
   }
+
   to {
-    background-color: cornflowerblue;
+    background-color: #cda58bb7;
   }
 }
 
@@ -283,7 +301,7 @@ nav {
   column-gap: 2vw;
   justify-items: center;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: #f2fcff;
 }
 
 .project-img-even {
