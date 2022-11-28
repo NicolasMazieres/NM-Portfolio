@@ -22,7 +22,7 @@ function AboutMe({ myref }: any) {
                 <p className="about-passion-text">
                     I am a true sport lover : boardsports (surf, skate, ski), running, climbing and more !
                     <br /> <br />
-                    I also love video games and, of course, I spend a lot of time learning web development with multiple projects.
+                    I also love video games and, of course, I spend a lot of time learning web development with several personal projects.
                     <br /> <br />
                     Last but not least, I love cooking (but the true reason why I cook is because I just love food).
                 </p>

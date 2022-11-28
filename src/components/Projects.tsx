@@ -1,19 +1,19 @@
 function Projects() {
     const projects = [
         {
-            name: "ToDo tutorial",
-            description: "Premier projet avec react, tutoriel de MDN",
-            url: "./logo512.png"
+            name: "Recipes website",
+            description: "This projet is an online adaptation of a family recipe book. The purpose was to create a nice website to bring the cooking recipes everywhere we go. It was also a way to learn many concepts of web development with React.",
+            url: "/images/food-project.jpg"
         },
         {
-            name: "Project 2",
+            name: "Todo tutorial",
             description: "Premier projet avec react, tutoriel de MDN",
-            url: "./logo512.png"
+            url: "/images/todo-project.jpg"
         },
         {
-            name: "Project 3",
+            name: "Weather App",
             description: "Premier projet avec react, tutoriel de MDN",
-            url: "./logo512.png"
+            url: "/images/weather-project.jpg"
         }
     ];
 
