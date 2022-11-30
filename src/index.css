@@ -147,7 +147,7 @@ nav {
 .about-container {
   padding: 10vh 20px;
   min-height: 70vh;
-  background-color: #cda58b;
+  background-color: #cda58ba2;
 }
 
 .about-container h2 {
@@ -356,6 +356,17 @@ nav {
   grid-column-start: 1;
   grid-row: 2 / span 2;
   text-align: justify;
+}
+
+.logos-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.project-logos {
+  width: 50px;
 }
 
 
