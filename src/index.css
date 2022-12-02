@@ -147,7 +147,8 @@ nav {
 .about-container {
   padding: 10vh 20px;
   min-height: 70vh;
-  background-color: #cda58ba2;
+  background-color: #2f5153;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .about-container h2 {
@@ -179,7 +180,8 @@ nav {
   grid-column: 1 / span 2;
   grid-row: 1 / span 4;
   background-color: #f2fcff;
-  box-shadow: rgba(-50, -50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px -30px 60px -30px;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .about-content::after {
@@ -188,7 +190,8 @@ nav {
   grid-column: 4 / span 2;
   grid-row: 4 / span 4;
   background-color: #f2fcff;
-  box-shadow: rgba(-50, -50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px -30px 60px -30px;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .about-work-title {
@@ -202,7 +205,7 @@ nav {
   z-index: 10;
   grid-column: 1 / span 2;
   grid-row: 2 / span 2;
-  padding: 0 20px;
+  padding: 0 2vw;
   align-self: center;
 }
 
@@ -210,7 +213,8 @@ nav {
   font-size: 10em;
   grid-column: 5;
   grid-row: 1 / span 2;
-  color: #252922;
+  padding: 0 3vw;
+  color: #f2fcff;
 }
 
 .logo-down-left {
@@ -219,7 +223,7 @@ nav {
   grid-row: 6 / span 2;
   padding-left: 10vw;
   padding-top: 8vh;
-  color: #252922;
+  color: #f2fcff;
 }
 
 .about-passion-title {
@@ -257,6 +261,7 @@ nav {
   align-self: center;
   margin: 0 auto;
   max-height: 300px;
+  border-radius: 10px;
 }
 
 .cv-link {
@@ -297,6 +302,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .projects-container h2 {
@@ -321,12 +327,19 @@ nav {
   justify-items: center;
   align-items: center;
   background-color: #f2fcff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .project-img-even {
   grid-row: 1 / span 4;
   justify-self: left;
-  align-self: stretch;
+  object-fit: contain;
+  width: 60vw;
+}
+
+.project-img-even img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .project-title-even {
@@ -343,8 +356,14 @@ nav {
 .project-img-odd {
   grid-column-start: 2;
   grid-row: 1 / span 4;
-  align-self: stretch;
+  object-fit: contain;
+  width: 60vw;
   justify-self: right;
+}
+
+.project-img-odd img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .project-title-odd {
@@ -366,7 +385,7 @@ nav {
 }
 
 .project-logos {
-  width: 50px;
+  height: 50px;
 }
 
 
@@ -376,15 +395,42 @@ nav {
   padding: 15vh 25px;
   min-height: 60vh;
   background-color: #2f5153;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .contact-container h2 {
   width: 170px;
 }
 
+.contact-container p {
+  text-align: center;
+  margin: 50px auto;
+  color: #f2fcff;
+}
+
+.contact-container a {
+  text-decoration: none;
+  font-weight: 600;
+  color:#61939B;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
+
+.contact-logos-container {
+  margin: 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+
 /* Footer */
 
 footer {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   height: 10vh;
 }
 

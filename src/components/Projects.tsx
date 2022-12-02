@@ -29,7 +29,18 @@ function Projects() {
             logos: [
                 "/images/html-logo.png",
                 "/images/css-logo.png",
-                "/images/js-logo.png",
+                "/images/ts-logo.png",
+                "/images/react-logo.png"
+            ]
+        },
+        {
+            name: "Portfolio",
+            description: "This is the website you are browsing right now ! It has been made in order to present my work but it was also a good practice project to learn how to make an as nice as posible website.",
+            url: "/images/portfolio-project.jpg",
+            logos: [
+                "/images/html-logo.png",
+                "/images/css-logo.png",
+                "/images/ts-logo.png",
                 "/images/react-logo.png"
             ]
         }
@@ -39,7 +50,9 @@ function Projects() {
         if (index % 2 === 0) {
             return (
                 <div className="single-project-container" key={index}>
-                    <img className="project-img-even" src={`${project.url}`} alt={project.name} />
+                    <div className="project-img-even">
+                        <img src={`${project.url}`} alt={project.name} />
+                    </div>
                     <h3 className="project-title-even">{project.name}</h3>
                     <p className="project-text-even">{project.description}</p>
 
@@ -47,7 +60,7 @@ function Projects() {
                         {project.logos.map((logo, index) => {
                             return (
                                 <img className="project-logos" src={logo} alt={`Logo n°${index}`} />
-                        )
+                            )
                         })}
                     </div>
                 </div>);
@@ -57,13 +70,15 @@ function Projects() {
                 <div className="single-project-container" key={index}>
                     <h3 className="project-title-odd">{project.name}</h3>
                     <p className="project-text-odd">{project.description}</p>
-                    <img className="project-img-odd" src={project.url} alt={project.name} />
+                    <div className="project-img-odd">
+                        <img src={project.url} alt={project.name} />
+                    </div>
 
                     <div className="logos-container">
                         {project.logos.map((logo, index) => {
                             return (
                                 <img className="project-logos" src={logo} alt={`Logo n°${index}`} />
-                        )
+                            )
                         })}
                     </div>
                 </div>);
