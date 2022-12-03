@@ -63,7 +63,7 @@ h3 {
 }
 
 .down-arrow:hover {
-  color: rgba(2, 19, 19, 255);
+  color: #71a9af;
 }
 
 @keyframes arrow {
@@ -99,7 +99,7 @@ nav {
 
 .nav-title {
   margin: auto 2%;
-  color: rgb(223, 223, 223);
+  color: #f2fcff;
   letter-spacing: 2px;
   font-size: 1.25em;
 }
@@ -123,7 +123,7 @@ nav {
 
 .nav-items {
   margin: auto 2%;
-  color: rgb(223, 223, 223);
+  color: #f2fcff;
   list-style: none;
   text-decoration: none;
   text-align: center;
@@ -134,11 +134,11 @@ nav {
 
 .nav-link {
   text-decoration: none;
-  color: rgb(223, 223, 223);
+  color: #f2fcff;
 }
 
 .nav-link:hover {
-  color: #61939B;
+  color: #71a9af;
   border-radius: 10%;
 }
 
@@ -411,27 +411,59 @@ nav {
 .contact-container a {
   text-decoration: none;
   font-weight: 600;
-  color:#61939B;
+  color:#89b4bb;
 }
 
 .contact-container a:hover {
   text-decoration: underline;
+  color:#f2fcff;
 }
 
 .contact-logos-container {
   margin: 0 auto;
-  width: 30%;
+  width: 30vw;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   font-size: 50px;
 }
 
+.contact-logo:hover {
+  font-size: 70px;
+}
+
 /* Footer */
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  height: 10vh;
+  height: 8vh;
+  background: #252922;
+  color: #f2fcff;
+  margin: auto;
+  padding: 0 20px;
+  text-align: right;
+  font-size: 14px;
+}
+
+footer p {
+  text-align: right;
+  font-size: 14px;
+  color: #f2fcff;
+  padding: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color:#89b4bb;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color:#f2fcff;
 }
 
 /* Responsivity for low width */
