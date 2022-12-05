@@ -16,7 +16,7 @@ function Navbar() {
             setLargeur(window.innerWidth);
         }
 
-        if (window.innerWidth > 520) {
+        if (window.innerWidth > 800) {
             setMenu(false);
         }
 
@@ -30,7 +30,7 @@ function Navbar() {
     return (
         <nav>
             <p className="nav-title">Nicolas Mazieres</p>
-            {(isMenuClicked || largeur > 520) && (
+            {(isMenuClicked || largeur > 800) && (
                 <ul className="nav-list">
                     <li className="nav-items">
                         <HashLink className="nav-link" smooth to="/#" onClick={menuClicked}>Home</HashLink>
