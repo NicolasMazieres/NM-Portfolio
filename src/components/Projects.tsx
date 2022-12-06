@@ -12,8 +12,8 @@ function Projects() {
             ]
         },
         {
-            name: "Todo tutorial",
-            description: "Premier projet avec react, tutoriel de MDN",
+            name: "To-do list tutorial",
+            description: "This was my introduction to ReactJS. It is a tutorial from the website 'MDN Web Docs' where I made my first web application : a to-do list.",
             url: "/images/todo-project.jpg",
             logos: [
                 "/images/html-logo.png",
@@ -24,7 +24,7 @@ function Projects() {
         },
         {
             name: "Weather App",
-            description: "Premier projet avec react, tutoriel de MDN",
+            description: "A simple project that aims to display the current weather of any city in the world with a search form. I made this project in order to learn how to fetch data from API and get better with app creation.",
             url: "/images/weather-project.jpg",
             logos: [
                 "/images/html-logo.png",
@@ -50,11 +50,11 @@ function Projects() {
         if (index % 2 === 0) {
             return (
                 <div className="single-project-container" key={index}>
+                    <h3 className="project-title-even">{project.name}</h3>
+                    <p className="project-text-even">{project.description}</p>
                     <div className="project-img-even">
                         <img src={`${project.url}`} alt={project.name} />
                     </div>
-                    <h3 className="project-title-even">{project.name}</h3>
-                    <p className="project-text-even">{project.description}</p>
 
                     <div className="logos-container">
                         {project.logos.map((logo, index) => {
