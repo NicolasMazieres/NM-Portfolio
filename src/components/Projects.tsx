@@ -9,7 +9,8 @@ function Projects() {
                 "/images/css-logo.png",
                 "/images/js-logo.png",
                 "/images/react-logo.png"
-            ]
+            ],
+            repoName: "Recettes-react"
         },
         {
             name: "To-do list tutorial",
@@ -20,7 +21,7 @@ function Projects() {
                 "/images/css-logo.png",
                 "/images/js-logo.png",
                 "/images/react-logo.png"
-            ]
+            ],
         },
         {
             name: "Weather App",
@@ -31,7 +32,8 @@ function Projects() {
                 "/images/css-logo.png",
                 "/images/ts-logo.png",
                 "/images/react-logo.png"
-            ]
+            ],
+            repoName: "Weather-API"
         },
         {
             name: "Portfolio",
@@ -42,7 +44,8 @@ function Projects() {
                 "/images/css-logo.png",
                 "/images/ts-logo.png",
                 "/images/react-logo.png"
-            ]
+            ],
+            repoName: "NM-Portfolio"
         }
     ];
 
@@ -50,7 +53,7 @@ function Projects() {
         if (index % 2 === 0) {
             return (
                 <div className="single-project-container" key={index}>
-                    <h3 className="project-title-even">{project.name}</h3>
+                    <h3 className="project-title-even"><a href={`https://nicolasmazieres.github.io/${project.repoName}/`} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
                     <p className="project-text-even">{project.description}</p>
                     <div className="project-img-even">
                         <img src={`${project.url}`} alt={project.name} />
@@ -68,7 +71,7 @@ function Projects() {
         else {
             return (
                 <div className="single-project-container" key={index}>
-                    <h3 className="project-title-odd">{project.name}</h3>
+                    <h3 className="project-title-odd"><a href={`https://nicolasmazieres.github.io/${project.repoName}/`} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
                     <p className="project-text-odd">{project.description}</p>
                     <div className="project-img-odd">
                         <img src={project.url} alt={project.name} />
