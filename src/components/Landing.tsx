@@ -1,8 +1,12 @@
 import { BsArrowDownCircle } from 'react-icons/bs';
+import '../i18n/config';
+import { useTranslation } from 'react-i18next';
 
 type Props = { handleArrowClick: React.MouseEventHandler<SVGElement> }
 
 function Landing({ handleArrowClick }: Props) {
+    const { t } = useTranslation();
+    
     const handleClick = handleArrowClick;
 
     return (
@@ -14,9 +18,7 @@ function Landing({ handleArrowClick }: Props) {
                 <span className="off">EN</span>
             </div>
             <p>
-                Hello, I'm Nicolas,
-                <br />
-                Welcome to my website !
+                {t('title')}
             </p>
             <BsArrowDownCircle className='down-arrow' onClick={handleClick} />
         </section>
