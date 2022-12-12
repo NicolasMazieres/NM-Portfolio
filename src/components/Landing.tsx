@@ -18,7 +18,9 @@ function Landing({ handleArrowClick }: Props) {
                 <span className="off">EN</span>
             </div>
             <p>
-                {t('title')}
+                {t('landingTitle.part1')}
+                <br />
+                {t('landingTitle.part2')}
             </p>
             <BsArrowDownCircle className='down-arrow' onClick={handleClick} />
         </section>

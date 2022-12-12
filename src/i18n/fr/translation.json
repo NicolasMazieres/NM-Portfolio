@@ -1,7 +1,49 @@
 {
-    "title": "Je m'appelle Nicolas, Bienvenue sur mon site !",
-    "description": {
-        "part1": "This is a simple example.",
-        "part2": "😉"
+    "landingTitle": {
+        "part1": "Je m'appelle Nicolas,",
+        "part2": "Bienvenue sur mon site !"
+    },
+    "navbarItems": {
+        "home": "Accueil",
+        "about": "A propos",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+
+    "aboutSectionTitle": "A propos de moi",
+    "aboutWorkTitle": "Travail",
+    "aboutWorkText": {
+        "part1": "Je suis issu d'une formation d'ingénieur généraliste.",
+        "part2": "Après 4 ans en tant qu'ingénieur d'études en environnement, j'ai envie d'explorer un nouveau domaine qui me passionne, à savoir le développement web (Front-End).",
+        "part3": "Je travaille principalement avec les langages ou technos suivants : HTML, CSS, JavaScript, ReactJS, Git",
+        "part4": "Mais je suis curieux et motivé d'en apprendre toujours plus, que ce soit sur ce que je connais ou ce qui m'est encore inconnu !"
+    },
+    "downloadCVButton": "Télécharger mon CV",
+    "aboutPassionTitle": "Passions",
+    "aboutPassionText": {
+        "part1": "Je suis un vrai passioné de sports : sports de glisse (surf, ski, skate), course à pied, escalade et plein d'autres !",
+        "part2": "J'ai aussi une certaine passion pour les jeux-vidéo, et bien sûr, je passe beaucoup de temps à apprendre le développement web à-travers des projets personnels.",
+        "part3": "La cuisine est une autre de mes passions, mais si j'aime cuisiner, c'est parce que j'aime manger avant tout !"
+    },
+
+    "projectSectionTitle": "Projets",
+    "project-1-Title": "Site de recettes",
+    "project-1-Text": "Ce projet est une adaptation d'un livre de recettes familiales. L'objectif était de faire un site clair permettant d'accéder aux recettes où que l'on se trouve. C'était bien entendu l'occasion pour moi d'en apprendre plus sur le développement web et notamment l'utilisation de React.",
+    "project-2-Title": "To-do liste (tutoriel)",
+    "project-2-Text": "La to-do liste était mon introduction à React à l'aide du tutoriel provenant du site : 'MDN Web Docs'. C'était l'occasion pour moi de découvrir le fonctionnement de React, les concepts principaux (states, components, etc.) et d'avoir une base pour mes futurs projets.",
+    "project-3-Title": "Application météo",
+    "project-3-Text": "Ce petit projet d'application web météo permet d'afficher la météo en direct d'une ville du monde que l'on peut chercher via un formulaire. L'objectif du projet était de comprendre comment communiquer avec une API pour en récuperer les informations ainsi que de progresser en développement d'applications web.",
+    "project-4-Title": "Portfolio",
+    "project-4-Text": "Ce projet correspond au site que vous êtes en train de consulter ! C'était un moyen pour moi de présenter mes projets mais c'était également un projet à part entière puisque j'ai essayé de le rendre le plus accessible et le plus beau possible, en évitant d'utiliser des 'templates' tout prêts.",
+
+    "contactSectionTitle": "Contact",
+    "contactText": {
+        "part1": "Retrouvez-moi sur LinkedIn ou Github (liens ci-dessous) !",
+        "part2": "Vous pouvez aussi me joindre ici : "
+    },
+
+    "footerText": {
+        "part1": "Crédits :",
+        "part2": "sur Freepik"
     }
 }
