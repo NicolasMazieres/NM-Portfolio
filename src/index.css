@@ -572,6 +572,17 @@ footer a:hover {
 
 /* Responsivity for low width */
 
+@media screen and (max-width: 1100px) {
+  p {
+    font-size: 0.9em;
+  }
+
+  .about-passion-logos {
+    align-items: center;
+  }
+}
+
+
 @media screen and (max-width: 800px) {
 
   p {

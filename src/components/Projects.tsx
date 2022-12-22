@@ -66,7 +66,7 @@ function Projects() {
                     <div className="logos-container">
                         {project.logos.map((logo, index) => {
                             return (
-                                <img className="project-logos" src={logo} alt={`Logo n°${index}`} />
+                                <img key= {index} className="project-logos" src={logo} alt={`Logo n°${index}`} />
                             )
                         })}
                     </div>
@@ -84,7 +84,7 @@ function Projects() {
                     <div className="logos-container">
                         {project.logos.map((logo, index) => {
                             return (
-                                <img className="project-logos" src={logo} alt={`Logo n°${index}`} />
+                                <img key= {index} className="project-logos" src={logo} alt={`Logo n°${index}`} />
                             )
                         })}
                     </div>
