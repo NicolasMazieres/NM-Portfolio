@@ -1,8 +1,12 @@
+import { useTranslation } from 'react-i18next';
+
 function Projects() {
+    const {t} = useTranslation();
+
     const projects = [
         {
-            name: "Recipes website",
-            description: "This projet is an online adaptation of a family recipe book. The purpose was to create a nice website to bring the cooking recipes everywhere we go. It was also a way to learn many concepts of web development with React.",
+            name: t("project-1-Title"),
+            description: t("project-1-Text"),
             url: "/images/food-project.jpg",
             logos: [
                 "/images/html-logo.png",
@@ -13,8 +17,8 @@ function Projects() {
             repoName: "Recettes-react"
         },
         {
-            name: "To-do list tutorial",
-            description: "This was my introduction to ReactJS. It is a tutorial from the website 'MDN Web Docs' where I made my first web application : a to-do list.",
+            name: t("project-2-Title"),
+            description: t("project-2-Text"),
             url: "/images/todo-project.jpg",
             logos: [
                 "/images/html-logo.png",
@@ -24,8 +28,8 @@ function Projects() {
             ],
         },
         {
-            name: "Weather App",
-            description: "A simple project that aims to display the current weather of any city in the world with a search form. I made this project in order to learn how to fetch data from API and get better with app creation.",
+            name: t("project-3-Title"),
+            description: t("project-3-Text"),
             url: "/images/weather-project.jpg",
             logos: [
                 "/images/html-logo.png",
@@ -36,8 +40,8 @@ function Projects() {
             repoName: "Weather-API"
         },
         {
-            name: "Portfolio",
-            description: "This is the website you are browsing right now ! It has been made in order to present my work but it was also a good practice project to learn how to make an as nice as posible website.",
+            name: t("project-4-Title"),
+            description: t("project-4-Text"),
             url: "/images/portfolio-project.jpg",
             logos: [
                 "/images/html-logo.png",
@@ -90,7 +94,7 @@ function Projects() {
 
     return (
         <section className="projects-container" id="projects">
-            <h2 className="section-title">Projects</h2>
+            <h2 className="section-title">{t("projectSectionTitle")}</h2>
             <div className="projects-list">
                 {projectsList}
             </div>

@@ -1,30 +1,30 @@
 import pdf from "../cv-nm-2022.pdf";
 import { TbChevronUpRight } from "react-icons/tb";
 import { TbChevronDownLeft } from "react-icons/tb";
+import { useTranslation } from 'react-i18next';
 
 function AboutMe({ myref }: any) {
+    const { t } = useTranslation();
+
     return (
         <section className="about-container" id="about" ref={myref}>
-            <h2 className="section-title">About Me</h2>
+            <h2 className="section-title">{t("aboutSectionTitle")}</h2>
             <div className="about-content">
-                <h3 className="about-work-title">Work</h3>
-                <p className="about-work-text">I am coming from a generalist engineering formation. <br /> <br />
-                    After 4 yours in Environmental Engineering, I want to explore another domain that I love : Web Development (Front-End).
-                    <br/> <br />
-                    I work mostly with the following languages or technologies : <br /> HTML, CSS, JavaScript, ReactJS, Git
-                    <br /> <br />
-                    But I am always curious to learn new things!
+                <h3 className="about-work-title">{t("aboutWorkTitle")}</h3>
+                <p className="about-work-text">
+                    {t("aboutWorkText.part1")} <br /> <br />
+                    {t("aboutWorkText.part2")} <br /> <br />
+                    {t("aboutWorkText.part3")} <br /> <br />
+                    {t("aboutWorkText.part4")}
                 </p>
                 <TbChevronUpRight className="logo-up-right" />
                 <img className="portrait-picture" src="./images/nm-photo.jpg" alt="My portrait" />
-                <a href={pdf} className="cv-link" download="CV-NicolasMAZIERES.pdf">Download my CV</a>
-                <h3 className="about-passion-title">Passions</h3>
+                <a href={pdf} className="cv-link" download="CV-NicolasMAZIERES.pdf">{t("downloadCVButton")}</a>
+                <h3 className="about-passion-title">{t("aboutPassionTitle")}</h3>
                 <p className="about-passion-text">
-                    I am a true sport lover : boardsports (surf, skate, ski), running, climbing and more !
-                    <br /> <br />
-                    I also love video games and, of course, I spend a lot of time learning web development with several personal projects.
-                    <br /> <br />
-                    Last but not least, I love cooking (but the true reason why I cook is because I just love food).
+                    {t("aboutPassionText.part1")} <br /> <br />
+                    {t("aboutPassionText.part2")} <br /> <br />
+                    {t("aboutPassionText.part3")}
                 </p>
                 <div className="about-passion-logos">
                     <img src="./images/surf.png" alt="Surf" />
