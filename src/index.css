@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
 
+/* All document styles */
 * {
   margin: 0;
   padding: 0;
@@ -37,12 +38,51 @@ a {
   color: #252922;
 }
 
+/* Loader */
+
+.load-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2fcff;
+  z-index: 200;
+  display: flex;
+  position: fixed;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.load-wrapper div {
+  height: 25px;
+  width: 25px;
+  background-color: #163836;
+  border-radius: 50%;
+  animation: load 1s linear 5;
+}
+
+@keyframes load {
+  0% {
+    transform: scale(0);
+    background-color: #71a9af;
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #163836;
+  }
+
+  100% {
+    transform: scale(0);
+    background-color: #71a9af;
+  }
+}
+
 /* Landing page */
 
 .landing-container {
   height: 100vh;
   text-align: center;
-  background-image: url(/public/images/forest-background.jpg);
+  background-image: url('/public/images/forest-background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -98,7 +138,7 @@ a {
   right: 20px;
 }
 
-.switch-button > span {
+.switch-button>span {
   position: absolute;
   top: 14px;
   pointer-events: none;
@@ -109,21 +149,21 @@ a {
   width: 50%;
 }
 
-input.check-toggle-round-flat:checked ~ .off {
+input.check-toggle-round-flat:checked~.off {
   color: #f2fcff;
 }
 
-input.check-toggle-round-flat:checked ~ .on {
+input.check-toggle-round-flat:checked~.on {
   color: #f2fcff;
 }
 
-.switch-button > span.on {
+.switch-button>span.on {
   left: 0;
   padding-left: 2px;
   color: #f2fcff;
 }
 
-.switch-button > span.off {
+.switch-button>span.off {
   right: 0;
   padding-right: 4px;
   color: #f2fcff;
@@ -134,7 +174,8 @@ input.check-toggle-round-flat:checked ~ .on {
   margin-left: -9999px;
   visibility: hidden;
 }
-.check-toggle + label {
+
+.check-toggle+label {
   display: block;
   position: relative;
   cursor: pointer;
@@ -142,20 +183,22 @@ input.check-toggle-round-flat:checked ~ .on {
   user-select: none;
 }
 
-input.check-toggle-round-flat + label {
+input.check-toggle-round-flat+label {
   padding: 2px;
   width: 97px;
   height: 35px;
   background-color: #2f5153;
   border-radius: 60px;
 }
-input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+
+input.check-toggle-round-flat+label:before,
+input.check-toggle-round-flat+label:after {
   display: block;
   position: absolute;
   content: "";
 }
 
-input.check-toggle-round-flat + label:before {
+input.check-toggle-round-flat+label:before {
   top: 2px;
   left: 2px;
   bottom: 2px;
@@ -163,7 +206,8 @@ input.check-toggle-round-flat + label:before {
   background-color: #f2fcff;
   border-radius: 60px;
 }
-input.check-toggle-round-flat + label:after {
+
+input.check-toggle-round-flat+label:after {
   top: 4px;
   left: 4px;
   bottom: 4px;
@@ -173,7 +217,7 @@ input.check-toggle-round-flat + label:after {
   transition: margin 0.2s;
 }
 
-input.check-toggle-round-flat:checked + label:after {
+input.check-toggle-round-flat:checked+label:after {
   margin-left: 44px;
 }
 
@@ -488,7 +532,8 @@ nav {
   height: 50px;
 }
 
-.project-title-even:hover, .project-title-odd:hover {
+.project-title-even:hover,
+.project-title-odd:hover {
   font-size: 1.75em;
 }
 
@@ -654,32 +699,32 @@ footer a:hover {
     from {
       font-size: 60px;
     }
-  
+
     50% {
       font-size: 40px;
     }
-  
+
     to {
       font-size: 60px;
     }
   }
 
-  .switch-button > span {
+  .switch-button>span {
     top: 9px;
     font-size: 10px;
   }
 
-  input.check-toggle-round-flat + label {
+  input.check-toggle-round-flat+label {
     padding: 2px;
     width: 60px;
     height: 25px;
   }
 
-  input.check-toggle-round-flat + label:after {
+  input.check-toggle-round-flat+label:after {
     width: 35px;
   }
 
-  input.check-toggle-round-flat:checked + label:after {
+  input.check-toggle-round-flat:checked+label:after {
     margin-left: 21px;
   }
 
@@ -804,16 +849,17 @@ footer a:hover {
     width: 100%;
   }
 
-  .project-title-even:hover, .project-title-odd:hover {
+  .project-title-even:hover,
+  .project-title-odd:hover {
     font-size: 1.5em;
   }
 
   /* Contact */
 
-  .contact-container p{
+  .contact-container p {
     margin: 30px auto;
   }
-  
+
   .contact-logo {
     font-size: 35px;
   }
@@ -824,7 +870,7 @@ footer a:hover {
 
   /* Footer */
 
-  footer{
+  footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
