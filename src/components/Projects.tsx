@@ -7,47 +7,47 @@ function Projects() {
         {
             name: t("project-1-Title"),
             description: t("project-1-Text"),
-            url: "/images/food-project.jpg",
+            url: "./images/food-project.jpg",
             logos: [
-                "/images/html-logo.png",
-                "/images/css-logo.png",
-                "/images/js-logo.png",
-                "/images/react-logo.png"
+                "./images/html-logo.png",
+                "./images/css-logo.png",
+                "./images/js-logo.png",
+                "./images/react-logo.png"
             ],
             repoName: "Recettes-react"
         },
         {
             name: t("project-2-Title"),
             description: t("project-2-Text"),
-            url: "/images/todo-project.jpg",
+            url: "./images/todo-project.jpg",
             logos: [
-                "/images/html-logo.png",
-                "/images/css-logo.png",
-                "/images/js-logo.png",
-                "/images/react-logo.png"
+                "./images/html-logo.png",
+                "./images/css-logo.png",
+                "./images/js-logo.png",
+                "./images/react-logo.png"
             ],
         },
         {
             name: t("project-3-Title"),
             description: t("project-3-Text"),
-            url: "/images/weather-project.jpg",
+            url: "./images/weather-project.jpg",
             logos: [
-                "/images/html-logo.png",
-                "/images/css-logo.png",
-                "/images/ts-logo.png",
-                "/images/react-logo.png"
+                "./images/html-logo.png",
+                "./images/css-logo.png",
+                "./images/ts-logo.png",
+                "./images/react-logo.png"
             ],
             repoName: "Weather-API"
         },
         {
             name: t("project-4-Title"),
             description: t("project-4-Text"),
-            url: "/images/portfolio-project.jpg",
+            url: "./images/portfolio-project.jpg",
             logos: [
-                "/images/html-logo.png",
-                "/images/css-logo.png",
-                "/images/ts-logo.png",
-                "/images/react-logo.png"
+                "./images/html-logo.png",
+                "./images/css-logo.png",
+                "./images/ts-logo.png",
+                "./images/react-logo.png"
             ],
             repoName: "NM-Portfolio"
         }
