@@ -50,6 +50,7 @@ a {
   gap: 20px;
   align-items: center;
   justify-content: center;
+  animation: hidecontent 500ms linear 2s 1 forwards;
 }
 
 .load-wrapper div {
@@ -57,7 +58,7 @@ a {
   width: 25px;
   background-color: #163836;
   border-radius: 50%;
-  animation: load 1s linear 5;
+  animation: load 1s linear 3;
 }
 
 @keyframes load {
@@ -74,6 +75,18 @@ a {
   100% {
     transform: scale(0);
     background-color: #71a9af;
+  }
+}
+
+@keyframes hidecontent {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  100% {
+      opacity: 0;
+      height: 0;
+      width: 0;
   }
 }
 

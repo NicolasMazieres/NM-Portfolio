@@ -31,7 +31,7 @@ function Navbar() {
 
     return (
         <nav>
-            <p className="nav-title">Nicolas Mazieres</p>
+            <p className="nav-title">Nicolas Mazières</p>
             {(isMenuClicked || largeur > 800) && (
                 <ul className="nav-list">
                     <li className="nav-items">
