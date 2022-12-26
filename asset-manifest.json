@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NM-Portfolio/static/css/main.5448b9b5.css",
+    "main.js": "/NM-Portfolio/static/js/main.a8b6961c.js",
+    "static/media/forest-background.jpg": "/NM-Portfolio/static/media/forest-background.8250dd3d6a7afc0981f1.jpg",
+    "static/media/drone-view.jpg": "/NM-Portfolio/static/media/drone-view.1110672013f1fe1a691a.jpg",
+    "static/media/cv-nm-2022.pdf": "/NM-Portfolio/static/media/cv-nm-2022.95a245b69c10e8a5d4a1.pdf",
+    "index.html": "/NM-Portfolio/index.html",
+    "main.5448b9b5.css.map": "/NM-Portfolio/static/css/main.5448b9b5.css.map",
+    "main.a8b6961c.js.map": "/NM-Portfolio/static/js/main.a8b6961c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5448b9b5.css",
+    "static/js/main.a8b6961c.js"
+  ]
+}
