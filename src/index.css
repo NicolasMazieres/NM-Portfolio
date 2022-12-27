@@ -900,4 +900,13 @@ footer a:hover {
   .landing-container p {
     font-size: 40px;
   }
+
+  .landing-container {
+    background-attachment: scroll;
+  }
+
+  .projects-container {
+    background-attachment: scroll;
+    background-size: contain;
+  }
 }
