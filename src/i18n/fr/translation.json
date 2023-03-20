@@ -35,6 +35,9 @@
     "project-3-Text": "Ce petit projet d'application web météo permet d'afficher la météo en direct d'une ville du monde que l'on peut chercher via un formulaire. L'objectif du projet était de comprendre comment communiquer avec une API pour en récuperer les informations ainsi que de progresser en développement d'applications web.",
     "project-4-Title": "Portfolio",
     "project-4-Text": "Ce projet correspond au site que vous êtes en train de consulter ! C'était un moyen pour moi de présenter mes projets mais c'était également un projet à part entière puisque j'ai essayé de le rendre le plus accessible et le plus beau possible, en évitant d'utiliser des 'templates' tout prêts.",
+    "project-5-Title": "Bike to Work",
+    "project-5-Text": "Cette application web est un calculateur permettant de comparer différents modes de transport pour un trajet domicile-travail. La comparaison sert à estimer le gain financier ainsi que la réduction d'émission de CO2 qui pourraient accompagner le passage à un véhicule plus 'propre' par exemple. L'objectif étant de démontrer l'intérêt d'utiliser son vélo plutôt que la voiture !",
+
 
     "contactSectionTitle": "Contact",
     "contactText": {

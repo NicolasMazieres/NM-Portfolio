@@ -1,4 +1,4 @@
-import pdf from "../cv-nm-2022.pdf";
+import pdf from "../cv-nm-2023.pdf";
 import { TbChevronUpRight } from "react-icons/tb";
 import { TbChevronDownLeft } from "react-icons/tb";
 import { useTranslation } from 'react-i18next';

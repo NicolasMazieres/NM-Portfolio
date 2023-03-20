@@ -14,14 +14,14 @@
     "aboutWorkTitle": "Work",
     "aboutWorkText": {
         "part1": "I am coming from a generalist engineering formation.",
-        "part2": "After 4 yours in Environmental Engineering, I want to explore another domain that I love : Web Development (Front-End).",
-        "part3": "I work mostly with the following languages or technologies : HTML, CSS, JavaScript, ReactJS, Git",
+        "part2": "After 4 yours in Environmental Engineering, I want to explore another domain that I love: Web Development (Front-End).",
+        "part3": "I work mostly with the following languages or technologies: HTML, CSS, JavaScript, ReactJS, Git",
         "part4": "But I am always curious to learn new things !"
     },
     "downloadCVButton": "Download my CV",
     "aboutPassionTitle": "Passions",
     "aboutPassionText": {
-        "part1": "I am a true sport lover : boardsports (surf, skate, ski), running, climbing and more !",
+        "part1": "I am a true sport lover: boardsports (surf, skate, ski), running, climbing and more !",
         "part2": "I also love video games and, of course, I spend a lot of time learning web development with several personal projects.",
         "part3": "Last but not least, I love cooking (but the true reason why I cook is because I just love food)."
     },
@@ -30,20 +30,22 @@
     "project-1-Title": "Recipes website",
     "project-1-Text": "This projet is an online adaptation of a family recipe book. The purpose was to create a nice website to bring the cooking recipes everywhere we go. It was also a way to learn many concepts of web development with React.",
     "project-2-Title": "To-do list (tutorial)",
-    "project-2-Text": "This was my introduction to ReactJS. It is a tutorial from the website 'MDN Web Docs' where I made my first web application : a to-do list.",
+    "project-2-Text": "This was my introduction to ReactJS. It is a tutorial from the website 'MDN Web Docs' where I made my first web application: a to-do list.",
     "project-3-Title": "Weather App",
     "project-3-Text": "A simple project that aims to display the current weather of any city in the world with a search form. I made this project in order to learn how to fetch data from API and get better with app creation.",
     "project-4-Title": "Portfolio",
     "project-4-Text": "This is the website you are browsing right now ! It has been made in order to present my work but it was also a good practice project to learn how to make an as nice as posible website.",
+    "project-5-Title": "Bike to Work",
+    "project-5-Text": "This web app is a tool that allows to compare different types of vehicles for commuting. The utility of the tool is to estimate the financial benifits and the potential CO2 emission reduction that could happen if the user choose a greener vehicle to go to work with. The main goal is to show the advantages of the bike over the car in most cases !",
 
     "contactSectionTitle": "Contact",
     "contactText": {
         "part1": "Find me on LinkedIn or Github (links below) !",
-        "part2": "You can also join me at : "
+        "part2": "You can also join me at: "
     },
 
     "footerText": {
-        "part1": "Credits :",
+        "part1": "Credits:",
         "part2": "on Freepik"
     }
 }

@@ -50,6 +50,18 @@ function Projects() {
                 "./images/react-logo.png"
             ],
             repoName: "NM-Portfolio"
+        },
+        {
+            name: t("project-5-Title"),
+            description: t("project-5-Text"),
+            url: "./images/bike-to-work.jpg",
+            logos: [
+                "./images/html-logo.png",
+                "./images/css-logo.png",
+                "./images/ts-logo.png",
+                "./images/react-logo.png"
+            ],
+            repoName: "bike-to-work"
         }
     ];
 
