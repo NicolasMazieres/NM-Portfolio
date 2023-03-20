@@ -26,7 +26,7 @@ function Projects() {
                 "./images/js-logo.png",
                 "./images/react-logo.png"
             ],
-            repoName: "todo-react"
+            repoName: "moz-todo-react"
         },
         {
             name: t("project-3-Title"),
