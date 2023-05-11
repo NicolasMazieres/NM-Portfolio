@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
+import {BsFileCode, BsLink} from 'react-icons/bs' ;
 
 function Projects() {
-    const {t} = useTranslation();
+    const { t } = useTranslation();
 
     const projects = [
         {
@@ -63,6 +64,17 @@ function Projects() {
                 "./images/react-logo.png"
             ],
             repoName: "bike-to-work"
+        },
+        {
+            name: t("project-6-Title"),
+            description: t("project-6-Text"),
+            url: "./images/local-library.jpg",
+            logos: [
+                "./images/nodejs-logo.png",
+                "./images/js-logo.png",
+                "./images/mongodb-logo.png",
+            ],
+            repoName: "local-library-tuto"
         }
     ];
 
@@ -70,7 +82,13 @@ function Projects() {
         if (index % 2 === 0) {
             return (
                 <div className="single-project-container" key={index}>
-                    <h3 className="project-title-even"><a href={`https://nicolasmazieres.github.io/${project.repoName}/`} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
+                    <div className="project-title-container">
+                        <h3 className="project-title-even">{project.name}</h3>
+                        <div className="project-links">
+                            <a href={`https://nicolasmazieres.github.io/${project.repoName}/`} target="_blank" rel="noopener noreferrer"><BsLink /></a>
+                            <a href={`https://github.com/NicolasMazieres/${project.repoName}/`} target="_blank" rel="noopener noreferrer"><BsFileCode /></a>
+                        </div>
+                    </div>
                     <p className="project-text-even">{project.description}</p>
                     <div className="project-img-even">
                         <img src={`${project.url}`} alt={project.name} />
@@ -79,7 +97,7 @@ function Projects() {
                     <div className="logos-container">
                         {project.logos.map((logo, index) => {
                             return (
-                                <img key= {index} className="project-logos" src={logo} alt={`Logo n°${index}`} />
+                                <img key={index} className="project-logos" src={logo} alt={`Logo n°${index}`} />
                             )
                         })}
                     </div>
@@ -88,7 +106,13 @@ function Projects() {
         else {
             return (
                 <div className="single-project-container" key={index}>
-                    <h3 className="project-title-odd"><a href={`https://nicolasmazieres.github.io/${project.repoName}/`} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
+                    <div className="project-title-container">
+                        <h3 className="project-title-odd">{project.name}</h3>
+                        <div className="project-links">
+                            <a href={`https://nicolasmazieres.github.io/${project.repoName}/`} target="_blank" rel="noopener noreferrer"><BsLink /></a>
+                            <a href={`https://github.com/NicolasMazieres/${project.repoName}/`} target="_blank" rel="noopener noreferrer"><BsFileCode /></a>
+                        </div>
+                    </div>
                     <p className="project-text-odd">{project.description}</p>
                     <div className="project-img-odd">
                         <img src={project.url} alt={project.name} />
@@ -97,7 +121,7 @@ function Projects() {
                     <div className="logos-container">
                         {project.logos.map((logo, index) => {
                             return (
-                                <img key= {index} className="project-logos" src={logo} alt={`Logo n°${index}`} />
+                                <img key={index} className="project-logos" src={logo} alt={`Logo n°${index}`} />
                             )
                         })}
                     </div>

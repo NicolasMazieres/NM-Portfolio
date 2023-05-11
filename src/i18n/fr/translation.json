@@ -37,6 +37,9 @@
     "project-4-Text": "Ce projet correspond au site que vous êtes en train de consulter ! C'était un moyen pour moi de présenter mes projets mais c'était également un projet à part entière puisque j'ai essayé de le rendre le plus accessible et le plus beau possible, en évitant d'utiliser des 'templates' tout prêts.",
     "project-5-Title": "Bike to Work",
     "project-5-Text": "Cette application web est un calculateur permettant de comparer différents modes de transport pour un trajet domicile-travail. La comparaison sert à estimer le gain financier ainsi que la réduction d'émission de CO2 qui pourraient accompagner le passage à un véhicule plus 'propre' par exemple. L'objectif étant de démontrer l'intérêt d'utiliser son vélo plutôt que la voiture !",
+    "project-6-Title": "Local Library (tutoriel)",
+    "project-6-Text": "Projet m'ayant permis de m'initier à la partie back-end avec la réalisation d'une bibliothèque en ligne. L'idée est de manipuler la base de données (MongoDB) avec possibilité d'ajouter, modifier ou supprimer des éléments (auteur, livre, genre, etc.). A noter que le projet n'est pas hébergé en ligne mais le code reste accessible sur Github.",
+
 
 
     "contactSectionTitle": "Contact",

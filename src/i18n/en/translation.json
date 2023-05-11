@@ -37,7 +37,9 @@
     "project-4-Text": "This is the website you are browsing right now ! It has been made in order to present my work but it was also a good practice project to learn how to make an as nice as posible website.",
     "project-5-Title": "Bike to Work",
     "project-5-Text": "This web app is a tool that allows to compare different types of vehicles for commuting. The utility of the tool is to estimate the financial benifits and the potential CO2 emission reduction that could happen if the user choose a greener vehicle to go to work with. The main goal is to show the advantages of the bike over the car in most cases !",
-
+    "project-6-Title": "Local Library (tutorial)",
+    "project-6-Text": "Project that allowed me to learn the back-end aspect of web development. The project is an online library where you can play with the database (MongoDB) by adding, modifying or deleting some elements (author, genre, books, etc.). Beware, the project isn't hosted online but you can see the code on Github.",
+    
     "contactSectionTitle": "Contact",
     "contactText": {
         "part1": "Find me on LinkedIn or Github (links below) !",
