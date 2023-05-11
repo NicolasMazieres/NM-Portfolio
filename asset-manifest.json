@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/NM-Portfolio/static/css/main.407df2c9.css",
-    "main.js": "/NM-Portfolio/static/js/main.7bce255a.js",
+    "main.css": "/NM-Portfolio/static/css/main.154c4a9c.css",
+    "main.js": "/NM-Portfolio/static/js/main.4896d497.js",
     "static/media/drone-view.jpg": "/NM-Portfolio/static/media/drone-view.1110672013f1fe1a691a.jpg",
     "static/media/forest-background.jpg": "/NM-Portfolio/static/media/forest-background.98c709cb9172549a4eb2.jpg",
     "static/media/cv-nm-2023.pdf": "/NM-Portfolio/static/media/cv-nm-2023.1ffc911fba59ffb09391.pdf",
     "index.html": "/NM-Portfolio/index.html",
-    "main.407df2c9.css.map": "/NM-Portfolio/static/css/main.407df2c9.css.map",
-    "main.7bce255a.js.map": "/NM-Portfolio/static/js/main.7bce255a.js.map"
+    "main.154c4a9c.css.map": "/NM-Portfolio/static/css/main.154c4a9c.css.map",
+    "main.4896d497.js.map": "/NM-Portfolio/static/js/main.4896d497.js.map"
   },
   "entrypoints": [
-    "static/css/main.407df2c9.css",
-    "static/js/main.7bce255a.js"
+    "static/css/main.154c4a9c.css",
+    "static/js/main.4896d497.js"
   ]
 }
